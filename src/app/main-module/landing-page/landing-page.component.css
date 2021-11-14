@@ -1,0 +1,28 @@
+.app-spacer {
+    flex: 1 1 auto;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.footer-text{
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+
+.footer-bar{
+    min-height: 100%;
+}
+
+.footer-list{
+    list-style-type:none;
+}
+
+.footer-list li{
+    list-style-type:none;
+    margin: 0 0;
+    margin-bottom: 0px;
+}

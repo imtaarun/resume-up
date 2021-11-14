@@ -1,0 +1,32 @@
+<div class="wrapper">
+    <header class="page-header">
+        <mat-toolbar color="primary">
+            <mat-toolbar-row>
+                <span>Resume-Up</span>
+                <span class="app-spacer"></span>
+                <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+                    <mat-icon>menu</mat-icon>
+                </button>
+            </mat-toolbar-row>
+        </mat-toolbar>
+    </header>
+    <article class="page-body">
+       <router-outlet></router-outlet>
+    </article>
+    <footer class="page-footer">
+        <mat-toolbar class="footer-bar" color="primary">
+            <mat-toolbar-row>
+                <span>Resume-Up | LOCAL DEV Environment</span>
+                <span class="app-spacer"></span>
+                <ul class="footer-list">
+                    <li>
+                        <p class="footer-text">Version: 1.0.0</p>
+                    </li>
+                    <li>
+                        <p class="footer-text">Unlicensed Product - Under test </p>
+                    </li>
+                </ul>
+            </mat-toolbar-row>
+        </mat-toolbar>
+    </footer>
+</div>
